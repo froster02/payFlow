@@ -24,6 +24,20 @@ Goals:
 
 ---
 
+
+## 📐 System Architecture
+
+### Logical Architecture (Cloud-Agnostic)
+
+<p align="center">
+  <img src="docs/architecture.png" width="900"/>
+</p>
+
+This diagram represents the **logical system design** of PayFlow.
+The system is cloud-agnostic and focuses on domain separation, event-driven processing,
+and strong consistency guarantees for payments.
+
+
 ## 2. Key Learning Objectives
 
 By building and discussing PayFlow you should be able to demonstrate:
