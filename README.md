@@ -1,7 +1,6 @@
 # PayFlow — End-to-End Payment Processing Platform
 
-Status: Interview-grade reference implementation (cloud-agnostic)  
-Audience: SDE-2 / FAANG-level backend & system-design interviews
+Status: Interview-grade reference implementation (cloud-agnostic)
 
 ---
 
@@ -23,7 +22,6 @@ Goals:
 - Provide interview talking points for both high-level (HLD) and low-level (LLD) design.
 
 ---
-
 
 ## 📐 System Architecture
 
