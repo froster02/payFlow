@@ -473,28 +473,6 @@ Cloud-agnostic choices (free-tier / OSS) to host and test the system:
 
 ---
 
-## 11. Interview-Ready Summary (Script)
-
-"I built PayFlow as a cloud-agnostic, ledger-first payment processing platform that models real-world flows — authorization, capture, refund, settlement, and reconciliation. The system uses a microservice boundary between Payment, Tokenization, Ledger, and Settlement services; it persists immutable ledger entries and derives balances from those entries to guarantee auditability. It demonstrates idempotent APIs via Idempotency-Key, concurrency control using optimistic locking/row-level locks, and an event-driven integration using Kafka with an outbox pattern. Security is handled by a dedicated Auth service (JWT/OAuth2), and batch settlement is implemented with Spring Batch. Overall the design focuses on correctness, recoverability, and scalable event-driven processing, and it’s intentionally cloud-agnostic so services can run on any provider or on-prem."
-
----
-
-Appendices
-
-- Recommended interview demo scenarios:
-  1. Show authorization → capture → ledger entries + event stream.
-  2. Simulate duplicate requests with same Idempotency-Key and show consistent result.
-  3. Demonstrate a failed external acquirer call and how DLQ/retry resolves it.
-  4. Run settlement batch and show reconciliation against ledger entries.
-
-- References & reading:
-  - Domain modeling for payments and ledger design
-  - Outbox pattern for reliable event publishing
-  - Kafka consumer idempotency techniques
-  - Spring Batch for settlement/reconciliation
-
----
-
 License
 - MIT (or choose organization policy)
 
