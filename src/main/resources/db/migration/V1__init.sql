@@ -1,0 +1,2 @@
+-- Initial Flyway migration placeholder.
+-- Add transferflow schema objects in upcoming milestones.

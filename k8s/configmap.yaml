@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: transferflow-config
+  labels:
+    app: transferflow
+data:
+  SPRING_PROFILES_ACTIVE: "k8s"
+  APP_PLACEHOLDER: "week-9-stretch"
